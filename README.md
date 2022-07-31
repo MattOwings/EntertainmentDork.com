@@ -1,2 +1,3 @@
 # EntertainmentDork.com
-EntertainmentDork.com is a web application to host news, articles, and blogs. 
+
+EntertainmentDork.com is a web application to host news, articles, and blogs.
