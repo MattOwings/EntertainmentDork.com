@@ -3,29 +3,130 @@
   padding: 0;
 }
 
-#top-navbar {
+body {
   background-color: #0f0f0f;
 }
 
-#top-navbar a {
+#top-navbar {
+  width: 100vw;
+  background-color: #0f0f0f;
+  min-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#top-navbar p {
+  font-size: 2.5rem;
   color: #f0f0f0;
+  margin: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
-#second-navbar {
-  background-color: #f00000 !important;
-  height: 25px;
-}
-
-#second-navbar a {
+#top-navbar h1,
+#top-navbar h1 a {
+  font-size: 2rem;
   color: #f0f0f0;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 0.25rem;
+  margin-left: 0.25rem;
 }
 
-/*@media screen and (max-height: 1000px) {
-    #second-navbar {
-        height: 25px;
-    }
-}*/
-.navbar-toggler {
-  background-color: #f0f0f0 !important;
+#top-navbar h2,
+#top-navbar h2 a {
+  font-size: 1.75rem;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-style: italic;
+  margin: 0;
+}
+
+#mid-navbar {
+  width: 100vw;
+  background-color: #f00000;
+  max-height: 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#mid-navbar h2:first-of-type {
+  margin-left: 1rem;
+}
+
+#mid-navbar p {
+  font-size: 2.5rem;
+  color: #f0f0f0;
+  margin: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+#mid-navbar h2,
+#mid-navbar h2 a {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-style: italic;
+  margin: 0;
+}
+
+#main {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main * {
+  margin: 0;
+  padding: 0;
+}
+
+#main #main-left {
+  border: 2px solid red;
+  width: 60vw;
+}
+
+#main #main-right {
+  border: 1px solid green;
+  width: 30vw;
+}
+
+#footer {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 3rem;
+}
+
+#footer * {
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */

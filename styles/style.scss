@@ -2,32 +2,111 @@ $white: rgb(240, 240, 240);
 $black: rgb(15, 15, 15);
 $red: rgb(240, 0, 0);
 
+// !! Currently only works at 1300 > pixels !!
+
 * {
     margin: 0;
     padding: 0;
 }
 
-#top-navbar {
+body {
     background-color: $black;
-    a {
+}
+
+#top-navbar {
+    width: 100vw;
+    background-color: $black;
+    min-height: 3rem;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    p {
+        font-size: 2.5rem;
         color: $white;
+        margin: 0;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+    h1,
+    h1 a {
+        font-size: 2rem;
+        color: $white;
+        font-style: italic;
+        margin: 0;
+        margin-bottom: 0.25rem;
+        margin-left: 0.25rem;
+    }
+    h2,
+    h2 a {
+        font-size: 1.75rem;
+        color: $white;
+
+        text-decoration: none;
+        font-style: italic;
+        margin: 0;
     }
 }
 
-#second-navbar {
-    background-color: $red !important;
-    height: 25px;
-    a {
+#mid-navbar {
+    width: 100vw;
+    background-color: $red;
+    max-height: 2.25rem;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    h2:first-of-type {
+        margin-left: 1rem;
+    }
+    p {
+        font-size: 2.5rem;
         color: $white;
+        margin: 0;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+    h2,
+    h2 a {
+        font-size: 1.5rem;
+        color: $white;
+
+        text-decoration: none;
+        font-style: italic;
+        margin: 0;
     }
 }
 
-/*@media screen and (max-height: 1000px) {
-    #second-navbar {
-        height: 25px;
+#main {
+    background-color: $white;
+    * {
+        margin: 0;
+        padding: 0;
     }
-}*/
+    display: flex;
+    justify-content: center;
 
-.navbar-toggler {
-    background-color: $white !important;
+    #main-left {
+        border: 2px solid red;
+        width: 60vw;
+    }
+    #main-right {
+        border: 1px solid green;
+        width: 30vw;
+    }
+}
+
+#footer {
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    * {
+        font-size: 1.5rem;
+    }
 }
