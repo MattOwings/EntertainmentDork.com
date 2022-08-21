@@ -1,12 +1,33 @@
+$white: rgb(240, 240, 240);
+$black: rgb(15, 15, 15);
+$red: rgb(240, 0, 0);
+
 * {
-    color: rgb(237, 237, 237);
+    margin: 0;
+    padding: 0;
 }
-body {
-    background-color: rgb(18, 18, 18);
-}
-#wip {
-    text-align: center;
-    h1 a {
-        font-style: italic;
+
+#top-navbar {
+    background-color: $black;
+    a {
+        color: $white;
     }
+}
+
+#second-navbar {
+    background-color: $red !important;
+    height: 25px;
+    a {
+        color: $white;
+    }
+}
+
+/*@media screen and (max-height: 1000px) {
+    #second-navbar {
+        height: 25px;
+    }
+}*/
+
+.navbar-toggler {
+    background-color: $white !important;
 }

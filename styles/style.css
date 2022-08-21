@@ -1,16 +1,31 @@
 * {
-  color: #ededed;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-  background-color: #121212;
+#top-navbar {
+  background-color: #0f0f0f;
 }
 
-#wip {
-  text-align: center;
+#top-navbar a {
+  color: #f0f0f0;
 }
 
-#wip h1 a {
-  font-style: italic;
+#second-navbar {
+  background-color: #f00000 !important;
+  height: 25px;
+}
+
+#second-navbar a {
+  color: #f0f0f0;
+}
+
+/*@media screen and (max-height: 1000px) {
+    #second-navbar {
+        height: 25px;
+    }
+}*/
+.navbar-toggler {
+  background-color: #f0f0f0 !important;
 }
 /*# sourceMappingURL=style.css.map */
