@@ -93,6 +93,42 @@ body {
     #main-left {
         border: 2px solid red;
         width: 60vw;
+        padding: 2rem;
+        .title {
+            h1 {
+                font-size: 3rem;
+                letter-spacing: 2px;
+            }
+        }
+        .author {
+            padding: 2rem;
+            padding-bottom: 0;
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        .readtime {
+            padding: 2rem;
+            padding-top: 0;
+            padding-bottom: 0;
+            p {
+                font-size: 1.5rem;
+            }
+        }
+        .paragraph {
+            padding: 2rem;
+            padding-bottom: 0;
+            padding-top: 0;
+            p {
+                font-size: 1.25rem;
+            }
+        }
+        .ad {
+            margin: 2rem;
+            padding: 2rem;
+            border: 2px solid black;
+            height: 10rem;
+        }
     }
     #main-right {
         border: 1px solid green;

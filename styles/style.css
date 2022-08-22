@@ -105,6 +105,48 @@ body {
 #main #main-left {
   border: 2px solid red;
   width: 60vw;
+  padding: 2rem;
+}
+
+#main #main-left .title h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+#main #main-left .author {
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+#main #main-left .author p {
+  font-size: 1.5rem;
+}
+
+#main #main-left .readtime {
+  padding: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#main #main-left .readtime p {
+  font-size: 1.5rem;
+}
+
+#main #main-left .paragraph {
+  padding: 2rem;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#main #main-left .paragraph p {
+  font-size: 1.25rem;
+}
+
+#main #main-left .ad {
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  height: 10rem;
 }
 
 #main #main-right {
